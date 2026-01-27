@@ -1452,7 +1452,7 @@ input, select, textarea {
 	form input[type=password],
 	form select,
 	form textarea {
-		-webkit-appearance: none;
+		/* -webkit-appearance: none; */
 		display: block;
 		border: 0;
 		padding: 0.75em 1em;
@@ -1608,13 +1608,13 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		-webkit-appearance: none;
+		/* -webkit-appearance: none; */
 		display: inline-block;
 		text-decoration: none;
 		cursor: pointer;
 		border: 0;
 		border-radius: 5px;
-		background: #d52349;
+		background: #3E4491; 
 		color: #fff !important;
 		font-weight: 700;
 		outline: 0;
@@ -2117,7 +2117,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li.current > a {
-					background: #d52349;
+					background: #3E4491;
 					color: #fff !important;
 					font-weight: 700;
 				}
@@ -2631,13 +2631,13 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				color: #858484;
-				background-image: url("images/bg02.png");
+				background-image: linear-gradient(180deg, #3A9EFD 0%, #3E4491 30%,#292A73 60%, #1A1B4B 100%);
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 
 				#navPanel .link {
 					display: block;
-					color: #888;
+					color: #F7A400;
 					text-decoration: none;
 					height: 44px;
 					line-height: 44px;
@@ -2676,7 +2676,9 @@ input, select, textarea {
 				}
 
 				#navPanel .depth-0 {
-					color: #fff;
+					color: #Fff;
+					font-weight: bold;
+					font-size: 1.2em;
 				}
 
 			body.navPanel-visible #page-wrapper {
