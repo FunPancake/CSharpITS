@@ -2102,7 +2102,7 @@ input, select, textarea {
 
 				#nav > ul > li > a {
 					border-radius: 5px;
-					color: #5d5d5d;
+					color: #ffffff;
 					text-decoration: none;
 					padding: 0.6em 1.2em 0.6em 1.2em;
 					-moz-transition: background-color .25s ease-in-out;
@@ -2110,10 +2110,6 @@ input, select, textarea {
 					-ms-transition: background-color .25s ease-in-out;
 					transition: background-color .25s ease-in-out;
 					outline: 0;
-				}
-
-				#nav > ul > li:hover > a, #nav > ul > li.active > a {
-					background: #f3f3f3;
 				}
 
 				#nav > ul > li.current > a {
